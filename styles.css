@@ -1,0 +1,57 @@
+html {
+    font-size: 20px;
+}
+
+h1, h2 {
+    font-family: "lucida fax";
+}
+
+header {
+    border-bottom: 10px solid red;
+}
+
+ul.class-list {
+    list-style-type: square;
+}
+
+ul li.item {
+    border: 2px dashed black;
+}
+
+ul li.item:nth-child(even) {
+    background-color: grey;
+}
+
+ul li.item:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+ul li#item1 {
+    font-size: 30px;
+}
+
+ul li#item2 {
+    text-align: right;
+}
+
+ol li p {
+    padding: 2px;
+    background-color: grey;
+}
+
+ol li:nth-child(odd) p {
+    background-color: green;
+}
+
+a[title="Bitmaker"]:hover {
+    text-decoration: none;
+}
+
+ul li a[href="#"]:hover {
+    background-color: yellow;
+}
+
+ul li a[href="#"]:active {
+    background-color: red;
+}
